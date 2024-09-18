@@ -1,9 +1,7 @@
-.App {
-  text-align: center;
-}
+.App {}
 
 .App-logo {
-  height: 40vmin;
+  height: 5rem;
   pointer-events: none;
 }
 
@@ -15,12 +13,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 7rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -32,7 +29,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.page {
+  background-color: #764abc;
+  padding: 1rem;
+  margin: auto 3rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  color: white;
 }
